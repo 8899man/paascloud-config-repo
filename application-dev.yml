@@ -14,13 +14,11 @@ spring:
     auto: true
   rabbitmq:
     host: localhost
-    #host: paascloud-mq-rabbit
     port: 5672
     username: guest
     password: guest
   redis:
     host: localhost
-    #host: paascloud-db-redis
     password: foobared
     port: 6379
     timeout: 0
